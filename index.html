@@ -138,6 +138,20 @@ cd jams-bin &amp;&amp; ./juice.sh</code></pre>
         dependencies are included); running the bundle only needs a
         Java runtime, version 11 or newer.
       </p>
+      <h2 style="margin-top:1.6rem">Building the models</h2>
+      <pre><code># once: install the JAMS artifacts (from the jams checkout)
+./mvnw install
+
+git clone https://github.com/jamsframework/jamsmodels.git
+cd jamsmodels
+./mvnw package                    # build all models
+./mvnw package -pl J2K_base -am   # build a single model, e.g. J2K_base</code></pre>
+      <p>
+        The built model jars are collected in the <code>components/</code>
+        directory of the jamsmodels checkout — add that directory to the
+        <code>libs</code> property of JAMS (settings dialog in JUICE) and
+        the models are ready to use.
+      </p>
     </div>
   </section>
 
