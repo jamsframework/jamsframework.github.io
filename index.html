@@ -131,7 +131,7 @@
       <h2>Getting started</h2>
       <pre><code>git clone https://github.com/jamsframework/jams.git
 cd jams
-./mvnw package -pl jams-starter -am
+./mvnw install -pl jams-starter -am
 cd jams-bin &amp;&amp; ./juice.sh</code></pre>
       <p>
         Building only requires a JDK 11+ (Maven and all third-party
@@ -139,9 +139,7 @@ cd jams-bin &amp;&amp; ./juice.sh</code></pre>
         Java runtime, version 11 or newer.
       </p>
       <h2 style="margin-top:1.6rem">Building the models</h2>
-      <pre><code># once: install the JAMS artifacts (from the jams checkout)
-./mvnw install
-
+      <pre><code># requires the JAMS build above (it installs the JAMS artifacts)
 git clone https://github.com/jamsframework/jamsmodels.git
 cd jamsmodels
 ./mvnw package                    # build all models
