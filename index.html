@@ -142,7 +142,9 @@ cd jams-bin &amp;&amp; ./juice.sh</code></pre>
       <p>
         Building only requires a JDK 17+ (Maven and all third-party
         dependencies are included); running the bundle only needs a
-        Java runtime, version 17 or newer.
+        Java runtime, version 17 or newer. On macOS, use Java 24 or newer
+        if you hit a rare accessibility-related crash (a JDK bug fixed in
+        Java 24).
       </p>
       <h2 style="margin-top:1.6rem">Building the model libraries</h2>
       <pre><code># requires the JAMS build above (it installs the JAMS artifacts)
