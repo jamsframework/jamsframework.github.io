@@ -28,8 +28,20 @@ title: Documentation
 </div>
 
 <div class="doc-index-group">
+  <h2 id="jams-models">JAMS Models</h2>
+  <ul>
+    <li><a href="{{ '/documentation/jams-models/hydrological-model-j2000/' | relative_url }}">Hydrological Model J2000</a></li>
+    <li><a href="{{ '/documentation/jams-models/hydrological-model-j2000g/' | relative_url }}">Hydrological Model J2000g</a></li>
+    <li><a href="{{ '/documentation/jams-models/water-and-nutrient-balance-model-j2000-s/' | relative_url }}">Water and Nutrient Balance Model J2000-S</a></li>
+    <li><a href="{{ '/documentation/jams-models/inundation-model-j2000-flood/' | relative_url }}">Inundation Model J2000-Flood</a></li>
+  </ul>
+</div>
+
+<div class="doc-index-group">
   <h2 id="modelling-with-jams">Modelling with JAMS</h2>
   <ul>
+    <li><a href="{{ '/documentation/modelling-with-jams/applying-the-j2000-model/' | relative_url }}">Applying the J2000 Model</a></li>
+    <li><a href="{{ '/documentation/modelling-with-jams/hruweb-tutorial/' | relative_url }}">HRUweb Tutorial</a></li>
     <li><a href="{{ '/documentation/modelling-with-jams/j2k-delineating-hrus-with-webhru/' | relative_url }}">J2K: Delineating HRUs with WebHRU</a></li>
     <li><a href="{{ '/documentation/modelling-with-jams/j2k-transform-daily-into-hourly-model/' | relative_url }}">J2K: Transform Daily into Hourly Model</a></li>
   </ul>
