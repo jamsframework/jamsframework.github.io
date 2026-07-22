@@ -22,6 +22,8 @@ Unpack the archive and run `juice.sh` / `juice.bat` — no installation required
 
 ## Building from source
 
+Clone and build the JAMS framework itself:
+
 ```
 git clone https://github.com/jamsframework/jams.git
 cd jams
