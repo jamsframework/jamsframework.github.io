@@ -129,10 +129,6 @@ In the following rows the actual data for each time step is listed – starting 
 
 The format is Date, Time followed by Data that is separated by the tab.
 
-## Installation and Start
-
-## Model Initialization
-
 ## Regionalization
 
 The regionalization module is used for the transfer of punctual values to the model units. The procedure was taken from the hydrological Model J2000 without any changes and is arranged in the following steps:

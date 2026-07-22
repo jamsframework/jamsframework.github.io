@@ -5,7 +5,7 @@ section: Modelling with JAMS
 section_url: /documentation/#modelling-with-jams
 ---
 
-This tutorial has been prepared to show how to use the J2000 hydrological model for a hydrological system analysis of a river catchment. A test dataset of the Dudh Kosi river basin has been provided along with the tutorial. The Dudh Kosi river basin was used for the hydrological system analysis by using the J2000 hydrological model as a part of the Ph.D. research (Nepal, 2012). The information provided here is largely based on this study [PhD Thesis](http://www.db-thueringen.de/servlets/DocumentServlet?id=20854). You can use the test data to get familiar with the model application and at the same time prepare your own dataset to simulate the hydrological behavior of any catchment by following this tutorial. A separate section is provided at the end on how to use the J2000 model for a new catchment. [How to set up a new model](http://ilms.uni-jena.de/ilmswiki/index.php/Tutorials_Data_Himalaya#Setting_up_a_new_model). Similarly, the information about the users' forum for the Integrated Landscape Management System (ILMS) application is also given at the end which can be used as a discussion forum for issues related to the modelling application. Via the forum, the model developers and users can be reached.
+This tutorial has been prepared to show how to use the J2000 hydrological model for a hydrological system analysis of a river catchment. A test dataset of the Dudh Kosi river basin has been provided along with the tutorial. The Dudh Kosi river basin was used for the hydrological system analysis by using the J2000 hydrological model as a part of the Ph.D. research (Nepal, 2012). The information provided here is largely based on this study [PhD Thesis](http://www.db-thueringen.de/servlets/DocumentServlet?id=20854). You can use the test data to get familiar with the model application and at the same time prepare your own dataset to simulate the hydrological behavior of any catchment by following this tutorial. A separate section is provided at the end on how to use the J2000 model for a new catchment. [How to set up a new model](http://ilms.uni-jena.de/ilmswiki/index.php/Tutorials_Data_Himalaya#Setting_up_a_new_model).
 
 The different components of the ILMS software (ILMSimage, ILMSgis, ILMSmodel, and ILMSexplore) can be downloaded from [here](http://ilms.uni-jena.de/ilmswiki/index.php/GRASS-HRU#Download.2FInstallation_of_GRASS-HRU). This tutorial also explains how to install the ILMS software package.
 
@@ -25,7 +25,7 @@ The J2000 model is a distributed and process oriented distributed hydrological m
 
 The modelling application represents the important hydrological processes of a river catchment. The principal layout of the J2000 hydrological model is provided in the figure below. The layout also includes the glacier module which has been applied in the Himalayan region. The modelling system differentiates among four different runoff components according to their specific origin. The component with the highest temporal dynamics is the fast direct runoff (RD1) (overland flow). It consists of the runoff of sealed areas and surface runoff originating due to saturated access and infiltration access runoff. The slow direct runoff component (RD2) (also known as Interflow 1), which corresponds to the lateral hypodermic runoff within soil zone, reacts slightly more slowly. This process reacts slightly more slowly than RD1. Two further base flow runoff components can be distinguished. The relatively fast baseflow runoff (RG1) (also known as Interflow 2) simulates the runoff from the upper part of an aquifer, which is more permeable due to weathering, compared to the lower zone of the aquifer. The slow baseflow runoff component (RG2), which can be seen as flow within fractures of solid rocks or matrix in homogeneous unconsolidated aquifers.
 
-<figure>
+<figure style="max-width: 480px; margin-left: auto; margin-right: auto;">
     <a href="{{ '/assets/img/documentation/modelling-with-jams/applying-the-j2000-model/J2000_layout1.png' | relative_url }}"><img src="{{ '/assets/img/documentation/modelling-with-jams/applying-the-j2000-model/J2000_layout1.png' | relative_url }}" alt="HRU schematic diagram"></a>
     <figcaption>HRU schematic diagram</figcaption>
 </figure>
@@ -106,7 +106,7 @@ All these data must be supplied in a *.tiff data format with the same resolution
 
 - HRU parameter file (*hru.par)
 
-<figure>
+<figure style="max-width: 380px; margin-left: auto; margin-right: auto;">
     <a href="{{ '/assets/img/documentation/modelling-with-jams/applying-the-j2000-model/HRUsfigure.jpg' | relative_url }}"><img src="{{ '/assets/img/documentation/modelling-with-jams/applying-the-j2000-model/HRUsfigure.jpg' | relative_url }}" alt="HRU schematic diagram"></a>
     <figcaption>HRU schematic diagram</figcaption>
 </figure>
@@ -707,18 +707,4 @@ The model xml file is opened using the JAMS Builder or the JAMS Launcher [File--
 **Efficiency:** You can give the different time period for efficiency estimation.
 
 <span style="color:red;">Important Note: The J2000 model was successfully applied in the Dudh Kosi river basin as a part of a PhD research. The calibrated and validated J2000 hydrological model was further used to assess the impact of land-use change on hydrological regime. Two hypothetical land-use change scenarios were implemented and the land-use information of the HRU parameter file was changed according to the quantity of such an impact of land-use change on different hydrological processes. Moreover, the impact of climate change on hydrological regime was also analysed by using the regional climate model data in the Dudh Kosi river basin. The description of these analyses are provided in Nepal (2012).</span>
-
-## Discussion Forum
-
-It is likely that while using the model and tutorial, you might encounter problems and error messages. In such cases, you are advised to contact the ILMS discussion forum, from which the model users and developer communities can be reached.
-
-**Integrated Land Management System (ILMS) Discussion Forum**:
-
-<http://ilms.uni-jena.de/ilms/board/index.php?sid=f545b1932d03a6781393eea0fed040e3>
-
-The ILMS discussion forum is designed to discuss the various components of ILMS software. For the ILMS Model, the following forum is allocated:
-
-<http://ilms.uni-jena.de/ilms/board/viewforum.php?f=6>
-
-You need to register in the ILMS forum [Register here](http://ilms.uni-jena.de/ilms/board/ucp.php?mode=register) to post a new query and also to follow the postings.
 
