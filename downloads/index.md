@@ -22,7 +22,7 @@ Unpack the archive and run `juice.sh` / `juice.bat` — no installation required
 
 ## Building from source
 
-Clone and build the JAMS framework itself:
+Clone and build the JAMS framework:
 
 ```
 git clone https://github.com/jamsframework/jams.git
@@ -40,7 +40,7 @@ cd jamsmodels
 ./mvnw package -pl J2K_base -am   # build a single model, e.g. J2K_base
 ```
 
-The built model jars are collected in the `components/` directory of the jamsmodels checkout — add that directory to the `libs` property of JAMS (settings dialog in JUICE) and the models are ready to use.
+The built model jars are collected in the `components/` directory of the jamsmodels checkout. Add that directory to the `libs` property of JAMS (settings dialog in JUICE) and the models are ready to use.
 
 ## Version history
 
