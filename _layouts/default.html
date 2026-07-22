@@ -24,18 +24,10 @@
 
 {% if page.math %}
 <script>
-  document.querySelectorAll('script[type^="math/tex"]').forEach(function (el) {
-    var display = el.type.indexOf('mode=display') !== -1;
-    var wrapper = document.createElement(display ? 'div' : 'span');
-    wrapper.textContent = display ? '$$' + el.textContent + '$$' : '\\(' + el.textContent + '\\)';
-    el.parentNode.replaceChild(wrapper, el);
-  });
-</script>
-<script>
   window.MathJax = {
     tex: {
       inlineMath: [['\\(', '\\)']],
-      displayMath: [['$$', '$$']]
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
     }
   };
 </script>
