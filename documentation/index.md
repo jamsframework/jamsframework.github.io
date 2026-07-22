@@ -46,10 +46,3 @@ title: Documentation
     <li><a href="{{ '/documentation/modelling-with-jams/j2k-transform-daily-into-hourly-model/' | relative_url }}">J2K: Transform Daily into Hourly Model</a></li>
   </ul>
 </div>
-
-<div class="doc-index-group">
-  <h2>External Resources</h2>
-  <ul>
-    <li><a href="http://jams.uni-jena.de/jamswiki">Components &amp; Models Wiki</a></li>
-  </ul>
-</div>
