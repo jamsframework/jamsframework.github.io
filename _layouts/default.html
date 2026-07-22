@@ -13,7 +13,6 @@
 
 <nav class="site-nav">
   <div class="wrap">
-    <a class="brand" href="{{ '/' | relative_url }}">JAMS</a>
     {% for item in site.nav %}
       <a href="{{ item.url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
     {% endfor %}
