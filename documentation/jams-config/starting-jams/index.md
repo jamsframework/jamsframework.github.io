@@ -14,30 +14,23 @@ JAMS provides two primary graphical interfaces:
 
 A command line interface also supports loading and running JAMS models.
 
-Access these through starter scripts or executables in the JAMS installation root directory:
+Access these through the starter scripts in the JAMS installation root directory:
 
-| Interface | Windows | Linux / OS X |
+| Interface | Windows | Linux / macOS |
 |-----------|---------|--------------|
-| JAMS Launcher | jams.exe; jams.bat | jams.sh; jams.command |
-| JAMS Builder | juice.exe; juice.bat | juice.sh; juice.command |
+| JAMS Launcher | jams.bat | jams.sh |
+| JAMS Builder | juice.bat | juice.sh |
 | Command line without GUI | `java <JAVA_OPTIONS> -splash: -jar jams-starter.jar -n -m <MODEL_FILE>` | |
 
 ### Setting Available Memory
 
-**For starter scripts**, edit and update the **-Xms** and **-Xmx** options:
+Edit and update the **-Xms** and **-Xmx** options in the starter script (or pass them directly when starting Java yourself):
 
 ```
 java -Xms100m -Xmx500m -jar jams-starter.jar
 ```
 
 Use "m" for MB and "g" for GB units.
-
-**For executables**, edit *jams.l4j.ini* or *juice.l4j.ini* files:
-
-```
--Xms100m
--Xmx500m
-```
 
 **From command line**:
 
@@ -49,16 +42,8 @@ java -Xms100m -Xmx500m -splash: -jar jams-starter.jar -n -m <MODEL_FILE>
 
 Use the **-Djava.library.path** option:
 
-**For starter scripts**:
-
 ```
 java -Djava.library.path=bin/linux64 -jar jams-starter.jar
-```
-
-**For executables**, edit *jams.l4j.ini* or *juice.l4j.ini*:
-
-```
--Djava.library.path=bin/linux64
 ```
 
 ## JAMS Command Line Arguments
