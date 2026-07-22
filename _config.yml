@@ -1,0 +1,28 @@
+title: JAMS Modelling Framework
+description: >-
+  JAMS is a pure-Java, open-source framework for building and applying
+  modular environmental simulation models.
+url: "https://jamsframework.org"
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+nav:
+  - title: Home
+    url: /
+  - title: Documentation
+    url: /documentation/
+  - title: Downloads
+    url: /downloads/
+  - title: Publications
+    url: /publications/
+  - title: Changelog
+    url: /changelog/
+  - title: GitHub
+    url: https://github.com/jamsframework/jams
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
