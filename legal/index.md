@@ -7,9 +7,9 @@ title: Legal Notice & Privacy Policy
 
 Information according to § 5 DDG (German Digital Services Act)
 
-Sven Kralisch
-Maurerstr. 23
-07749 Jena
+Sven Kralisch<br>
+Maurerstr. 23<br>
+07749 Jena<br>
 Germany
 
 Contact: contact@jamsframework.org
