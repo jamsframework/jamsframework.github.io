@@ -31,7 +31,7 @@ body {
   border-bottom: 1px solid var(--border);
 }
 .site-nav .wrap {
-  display: flex; align-items: center; gap: 1.5rem;
+  display: flex; align-items: center; justify-content: flex-end; gap: 1.5rem;
   padding: 0.9rem 1.5rem; flex-wrap: wrap;
 }
 .site-nav a {
@@ -44,7 +44,7 @@ header.hero { padding: 4.5rem 0 3rem; text-align: center; }
   display: inline-block; background: #ffffff;
   border-radius: 14px; padding: 1rem 1.6rem; margin-bottom: 1.6rem;
 }
-.logo-chip img { display: block; width: 360px; max-width: 70vw; height: auto; }
+.logo-chip img { display: block; width: 480px; max-width: 70vw; height: auto; }
 header.hero h1 { font-size: 1.55rem; font-weight: 650; letter-spacing: -0.01em; }
 header.hero p.tagline {
   max-width: 40em; margin: 0.9rem auto 0; color: var(--muted); font-size: 1.06rem;
