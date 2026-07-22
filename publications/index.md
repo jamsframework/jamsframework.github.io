@@ -5,9 +5,11 @@ description: "Publications about and using the JAMS modelling framework."
 ---
 
 <details class="pub-accordion" open>
-  <summary>Model Publications <span class="pub-count">(52)</span></summary>
+  <summary>Model Publications <span class="pub-count">(54)</span></summary>
   <p class="pub-intro">Peer-reviewed articles describing models and studies built with JAMS and its component libraries (most recent first).</p>
   <div class="pub-list">
+    <div class="csl-entry">Watson, A., De Waal, J., Bennett, A., Kralisch, S. &amp; Midgley, G. (2026). Evaluating CORDEX-CORE Climate Projections for Simulated Hydrological Processes in a Mesoscale Catchment, South Africa. <i>Hydrological Processes</i> <b>40</b>(2), e70436. doi:<a href="https://doi.org/10.1002/hyp.70436">10.1002/hyp.70436</a></div>
+    <div class="csl-entry">Shrestha, M., Shakya, K., Bajracharya, B., Kralisch, S., Shrestha, P., Raihan, S. U., Hasan, M., Bhuyan, M. A. &amp; Matin, M. (2025). Co-development of a Flash Flood Forecasting System for the Transboundary Meghna Basin: A Collaborative Approach. <i>Environ Model Assess</i>. doi:<a href="https://doi.org/10.1007/s10666-025-10060-y">10.1007/s10666-025-10060-y</a></div>
     <div class="csl-entry">Mimeau, L., Künne, A., Devers, A., Branger, F., Kralisch, S., Lauvernet, C., Vidal, J.-P., Bonada, N., Csabai, Z., Mykrä, H., Pařil, P., Polović, L. &amp; Datry, T. (2025). Projections of streamflow intermittence under climate change in European drying river networks. <i>Hydrol. Earth Syst. Sci.</i> <b>29</b>(6), 1615–1636. Copernicus GmbH. doi:<a href="https://doi.org/10.5194/hess-29-1615-2025">10.5194/hess-29-1615-2025</a></div>
     <div class="csl-entry">Watson, A., Künne, A., Birkel, C., Miller, J. &amp; Kralisch, S. (2024). Developing a model to assess the impact of farm dams and irrigation for data-scarce catchments. <i>Hydrological Sciences Journal</i> 02626667.2024.2331790. doi:<a href="https://doi.org/10.1080/02626667.2024.2331790">10.1080/02626667.2024.2331790</a></div>
     <div class="csl-entry">Watson, A., Kralisch, S., Miller, J., Vystavna, Y., Gokool, S., Künne, A., Helmschrot, J., Arciniega‐Esparza, S., Sanchez‐Murillo, R. &amp; Birkel, C. (2024). Advancing isotope‐enabled hydrological modelling for ungauged calibration of data‐scarce humid tropical catchments. <i>Hydrological Processes</i> <b>38</b>(2), e15065. doi:<a href="https://doi.org/10.1002/hyp.15065">10.1002/hyp.15065</a></div>
