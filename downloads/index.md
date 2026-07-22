@@ -29,7 +29,16 @@ cd jams
 cd jams-bin && ./juice.sh
 ```
 
-Model libraries (e.g. the J2K family) are built the same way from the [jamsmodels](https://github.com/jamsframework/jamsmodels) repository — see the [homepage]({{ '/' | relative_url }}#getting-started) for the full getting-started walkthrough.
+This builds and starts the JAMS framework itself, without any model components. To build the model libraries (e.g. the J2K family), also clone and build [jamsmodels](https://github.com/jamsframework/jamsmodels):
+
+```
+git clone https://github.com/jamsframework/jamsmodels.git
+cd jamsmodels
+./mvnw package                    # build all models
+./mvnw package -pl J2K_base -am   # build a single model, e.g. J2K_base
+```
+
+The built model jars are collected in the `components/` directory of the jamsmodels checkout — add that directory to the `libs` property of JAMS (settings dialog in JUICE) and the models are ready to use.
 
 ## Version history
 
