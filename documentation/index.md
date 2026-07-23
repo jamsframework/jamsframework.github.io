@@ -38,7 +38,7 @@ title: Documentation
 </div>
 
 <div class="doc-index-group">
-  <h2 id="modelling-with-jams">Modelling with JAMS</h2>
+  <h2 id="modelling-with-jams">Tutorials</h2>
   <ul>
     <li><a href="{{ '/documentation/modelling-with-jams/applying-the-j2000-model/' | relative_url }}">Applying the J2000 Model</a></li>
     <li><a href="{{ '/documentation/modelling-with-jams/hruweb-tutorial/' | relative_url }}">HRUweb Tutorial</a></li>
