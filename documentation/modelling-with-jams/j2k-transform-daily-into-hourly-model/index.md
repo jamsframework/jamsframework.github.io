@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: "J2K: Transform Daily into Hourly Model"
-section: Modelling with JAMS
+section: Tutorials
 section_url: /documentation/#modelling-with-jams
 ---
 

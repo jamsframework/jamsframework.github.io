@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Applying the J2000 Model
-section: Modelling with JAMS
+section: Tutorials
 section_url: /documentation/#modelling-with-jams
 ---
 

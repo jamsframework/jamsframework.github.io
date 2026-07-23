@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: "J2K: Delineating HRUs with WebHRU"
-section: Modelling with JAMS
+section: Tutorials
 section_url: /documentation/#modelling-with-jams
 ---
 
