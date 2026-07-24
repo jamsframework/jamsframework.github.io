@@ -44,7 +44,7 @@ header.hero { padding: 2rem 0 3rem; text-align: center; }
   display: inline-block; background: #ffffff;
   border-radius: 14px; padding: 1rem 1.6rem; margin-bottom: 1.6rem;
 }
-.logo-chip img { display: block; width: 262px; max-width: 70vw; height: auto; }
+.logo-chip img { display: block; width: auto; max-width: 70vw; height: auto; }
 header.hero h1 { font-size: 1.55rem; font-weight: 650; letter-spacing: -0.01em; }
 header.hero p.tagline {
   max-width: 40em; margin: 0.9rem auto 0; color: var(--muted); font-size: 1.06rem;
