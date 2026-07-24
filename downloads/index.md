@@ -36,6 +36,9 @@ This builds and starts the JAMS framework itself, without any model components. 
 ```
 git clone https://github.com/jamsframework/jamsmodels.git
 cd jamsmodels
+# drop jams-api-*.jar / jams-main-*.jar (from the JAMS build above, or
+# from a release bundle's lib/ folder) into jams-libs/, then:
+./install-jams-libs.sh            # or install-jams-libs.bat on Windows
 ./mvnw package                    # build all models
 ./mvnw package -pl J2K_base -am   # build a single model, e.g. J2K_base
 ```

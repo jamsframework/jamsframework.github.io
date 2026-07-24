@@ -33,7 +33,7 @@ cd jams
 ./mvnw install -pl jams-starter -am
 ```
 
-This builds the `jams-starter` module and its dependencies, and installs the JAMS platform artifacts (`jams-api`, `jams-main`, …) into your local Maven repository so the model libraries can build against them. The runnable bundle is assembled in `jams-bin`:
+This builds the `jams-starter` module and its dependencies, including `jams-api`/`jams-main`, which the model libraries build against. The runnable bundle is assembled in `jams-bin`:
 
 ```
 cd jams-bin
@@ -42,10 +42,20 @@ cd jams-bin
 
 ## Building the Model Libraries
 
-With the JAMS build above already installed locally:
+With the JAMS build above done, register `jams-api`/`jams-main` for
+`jamsmodels` to build against:
 
 ```
 cd jamsmodels
+cp ../jams/jams-api/target/jams-api-*.jar jams-libs/
+cp ../jams/jams-main/target/jams-main-*.jar jams-libs/
+./install-jams-libs.sh            # or install-jams-libs.bat on Windows
+```
+
+This only needs repeating when you rebuild `jams` with a different
+version. Then build the models:
+
+```
 ./mvnw package                    # build all models
 ./mvnw package -pl J2K_base -am   # build a single model, e.g. J2K_base
 ```

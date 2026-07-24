@@ -70,9 +70,11 @@ cd jams-bin &amp;&amp; ./juice.sh</code></pre>
       Java 24).
     </p>
     <h2 style="margin-top:1.6rem">Building the model libraries</h2>
-    <pre><code># requires the JAMS build above (it installs the JAMS artifacts)
-git clone https://github.com/jamsframework/jamsmodels.git
+    <pre><code>git clone https://github.com/jamsframework/jamsmodels.git
 cd jamsmodels
+# drop jams-api-*.jar / jams-main-*.jar (from the JAMS build above, or
+# from a release bundle's lib/ folder) into jams-libs/, then:
+./install-jams-libs.sh            # or install-jams-libs.bat on Windows
 ./mvnw package                    # build all models
 ./mvnw package -pl J2K_base -am   # build a single model, e.g. J2K_base</code></pre>
     <p>
