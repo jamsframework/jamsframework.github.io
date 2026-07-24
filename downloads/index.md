@@ -15,6 +15,23 @@ The ready-to-run bundle (JUICE, JAMS Launcher, model libraries and all dependenc
 
 Unpack the archive and run `juice.sh` / `juice.bat` — no installation required.
 
+## Additional model libraries
+
+The JAMS bundle above already includes the standard model components
+(J2K_base, J2K_ext, J2K_iso, J2Kg, Thornthwaite). The full set — including
+regional J2000 variants, isotope transport, DRYvER and more — is published
+separately from the [jamsmodels](https://github.com/jamsframework/jamsmodels)
+repository:
+
+<div class="buttons" style="justify-content:flex-start; margin: 1.2rem 0;">
+  <a class="btn primary" href="https://github.com/jamsframework/jamsmodels/releases/latest">Download latest jamsmodels release</a>
+  <a class="btn" href="https://github.com/jamsframework/jamsmodels/releases">All releases</a>
+</div>
+
+Unzip and copy the contents into the `components` folder of your JAMS
+installation (or the `libs` path configured in `default.jap` / the JUICE
+settings dialog).
+
 ## System requirements
 
 - **Building** JAMS from source requires a JDK 17 or newer (Maven and all third-party dependencies are included via the Maven wrapper).
